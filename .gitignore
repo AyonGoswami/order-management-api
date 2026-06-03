@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+.env
+order_management.db

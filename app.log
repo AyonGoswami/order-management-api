@@ -1,0 +1,116 @@
+2026-05-20 14:35:18 | INFO | request_id=f5bfceb3-9803-4abc-aa27-10427a501e6d | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=7.03
+2026-05-20 14:35:18 | INFO | request_id=15ea293b-5668-437d-9565-2fd9f1b88bea | user_id=anonymous | method=GET | path=/favicon.ico | status_code=404 | duration_ms=0.52
+2026-05-20 14:35:27 | INFO | request_id=948a1e5d-31a2-45ff-a7e8-f0f82f25d870 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.87
+2026-05-20 14:35:27 | INFO | request_id=4d40ece3-4c65-4009-94e0-3ed8c1e4e25d | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=30.06
+2026-05-20 15:48:33 | INFO | request_id=5296a4e1-4ad8-4850-b5ab-5047a10328b5 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=3.46
+2026-05-20 15:48:41 | INFO | request_id=e397d5b3-302d-4603-9bbb-c6c0cccecb00 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.41
+2026-05-20 15:48:42 | INFO | request_id=5244966f-b763-4da4-8cf1-e5f27655e3f8 | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=29.77
+2026-05-20 15:49:18 | DEBUG | detected 'bcrypt' backend, version '4.0.1'
+2026-05-20 15:49:18 | DEBUG | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-05-20 15:49:18 | INFO | request_id=33f91e44-c138-490b-8047-9f70209b7eb2 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=402.29
+2026-05-20 15:49:59 | INFO | request_id=febbb4ed-863e-4d74-8280-24599eba9ea1 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=362.69
+2026-05-20 15:52:58 | INFO | request_id=f983dafa-e639-4b7a-9b04-afd1b92c672c | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=1.41
+2026-05-20 15:55:34 | INFO | request_id=cedcf9d3-d4f9-41c4-9f18-b2574fd6ceac | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=1.15
+2026-05-20 15:57:34 | INFO | request_id=af04e16a-44b7-4c22-be59-edc3dc00106e | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=10.22
+2026-05-20 15:58:53 | INFO | request_id=3f4d5ae0-f5b0-4337-8fe7-f484bc794ea3 | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=5.24
+2026-05-20 15:59:08 | INFO | request_id=554861b7-5721-4d35-9d0e-8a1fa64fac10 | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=1.69
+2026-05-20 15:59:52 | INFO | request_id=f1e3bbe8-3b54-4471-84bc-8a8d922991ae | user_id=5 | method=POST | path=/products/ | status_code=422 | duration_ms=0.91
+2026-05-20 16:03:32 | INFO | request_id=758d684b-de4e-446d-afdd-e52077e1ce65 | user_id=5 | method=POST | path=/products/ | status_code=200 | duration_ms=69.98
+2026-05-20 16:04:42 | INFO | request_id=bff7b20c-d53d-4355-a59e-8139ebcff9e4 | user_id=anonymous | method=GET | path=/products/3 | status_code=200 | duration_ms=5.17
+2026-05-20 16:05:14 | INFO | request_id=60f22fe4-c801-4d26-afb6-4a6acd2066b0 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=371.41
+2026-05-20 16:05:38 | INFO | request_id=3d960f82-4bb2-4483-abd7-fea1a2b8db09 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=329.42
+2026-05-20 16:06:11 | INFO | request_id=0e7160a3-0980-4d9d-9738-1d4ce7e79838 | user_id=6 | method=GET | path=/orders/ | status_code=200 | duration_ms=10.94
+2026-05-20 16:07:01 | INFO | request_id=9defcde5-63bb-41b2-8b59-165d376ff554 | user_id=6 | method=POST | path=/orders/ | status_code=200 | duration_ms=45.54
+2026-05-20 16:07:54 | INFO | request_id=6780c94e-b102-4369-b467-45cc8d82d113 | user_id=6 | method=GET | path=/orders/1 | status_code=200 | duration_ms=11.15
+2026-05-20 16:10:42 | INFO | request_id=484efdfc-5911-4505-a7ae-446eb1abd62f | user_id=6 | method=PUT | path=/orders/1/status | status_code=200 | duration_ms=37.65
+2026-05-20 16:11:01 | INFO | request_id=e4385268-e76b-4db0-b335-5fc7396b21ad | user_id=6 | method=PUT | path=/orders/1/status | status_code=200 | duration_ms=25.83
+2026-05-20 16:11:17 | INFO | request_id=82c5e164-cdc6-4164-90f5-0d4e2fc75dd4 | user_id=6 | method=PUT | path=/orders/1/status | status_code=400 | duration_ms=9.9
+2026-05-20 16:11:30 | INFO | request_id=f436a9ab-2918-43d4-ad36-d9d7451bf898 | user_id=6 | method=PUT | path=/orders/1/status | status_code=200 | duration_ms=23.26
+2026-05-20 16:12:09 | INFO | request_id=8ad89e45-64a3-4f32-8a60-a79e8817649a | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=4.93
+2026-05-20 16:14:04 | INFO | request_id=9ccdf421-417a-4644-9cc8-63c9b1a17e86 | user_id=6 | method=POST | path=/products/suggest-metadata | status_code=403 | duration_ms=5.18
+2026-05-20 16:14:37 | INFO | request_id=ed92ee8e-cb35-4a28-ba95-073997c62bcf | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=366.78
+2026-05-20 16:15:01 | WARNING | LLM call failed (OPENAI_API_KEY not set), using fallback metadata generator
+2026-05-20 16:15:01 | INFO | request_id=d6cac046-2059-4fe4-b2d1-0380ddd05b41 | user_id=5 | method=POST | path=/products/suggest-metadata | status_code=200 | duration_ms=7.91
+2026-05-20 16:58:00 | INFO | request_id=29a1bbac-3f69-4133-ad05-f7a8100a1784 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=6.4
+2026-05-20 16:58:22 | INFO | request_id=d8a972da-53aa-4d44-b22c-0e4597c461e2 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.92
+2026-05-20 16:58:22 | INFO | request_id=40bf7835-3342-4de4-81b4-a9e3c106860d | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=29.82
+2026-05-20 16:59:11 | DEBUG | detected 'bcrypt' backend, version '4.0.1'
+2026-05-20 16:59:11 | DEBUG | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-05-20 16:59:11 | INFO | request_id=d5d65e3e-83eb-4329-b4dc-e2b47c1336e9 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=427.7
+2026-05-20 16:59:44 | INFO | request_id=3281e463-f974-4411-be03-b647f80bad39 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=348.66
+2026-05-20 17:01:39 | INFO | request_id=8ab2566f-a646-46d2-b0d5-be1dc245bb07 | user_id=7 | method=POST | path=/products/ | status_code=403 | duration_ms=5.95
+2026-05-20 17:02:33 | INFO | request_id=e005f52d-4f6e-41c3-b749-0343f87a0ced | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=3.45
+2026-05-20 17:02:40 | INFO | request_id=fe987dd7-b10c-4c46-bf7f-097d1846e721 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.96
+2026-05-20 17:02:40 | INFO | request_id=b105757d-56dc-4229-9a1d-3765f974ec72 | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=28.77
+2026-05-20 17:03:09 | DEBUG | detected 'bcrypt' backend, version '4.0.1'
+2026-05-20 17:03:09 | DEBUG | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-05-20 17:03:10 | INFO | request_id=c2950011-2da1-4ea6-aec8-bc5a8d97d691 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=836.1
+2026-05-20 17:03:37 | INFO | request_id=61dfb252-5d83-495e-8125-6a8cfe44da0e | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.85
+2026-05-20 17:03:37 | INFO | request_id=d574c333-56ce-489e-a1d4-a3feadcc5f5e | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=1.36
+2026-05-20 17:04:09 | INFO | request_id=12f18fee-0801-4961-9ae5-5e097a75a373 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=656.84
+2026-05-20 17:05:15 | INFO | request_id=096a7551-319a-4661-a166-b89f746974e3 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=649.19
+2026-05-20 17:06:06 | INFO | request_id=6f26ca70-7f93-4462-a38b-e525ce25dba0 | user_id=9 | method=POST | path=/products/ | status_code=200 | duration_ms=51.47
+2026-05-20 17:07:31 | INFO | request_id=d200fcc4-e120-4871-9232-320459d370b4 | user_id=anonymous | method=GET | path=/products/4 | status_code=200 | duration_ms=9.19
+2026-05-20 17:07:56 | WARNING | LLM call failed (OPENAI_API_KEY not set), using fallback metadata generator
+2026-05-20 17:07:56 | INFO | request_id=3075691f-2c8f-487f-bdff-45239eff3fdc | user_id=9 | method=POST | path=/products/suggest-metadata | status_code=200 | duration_ms=10.41
+2026-05-20 17:09:40 | INFO | request_id=2ee061af-f340-4e11-91a9-c32b6d7728fe | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=691.24
+2026-05-20 17:10:07 | INFO | request_id=2761a7da-a0ad-4e1b-9ec2-0d70d6fa7840 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=650.74
+2026-05-20 17:10:57 | INFO | request_id=f4b4842c-6843-4557-872c-699995fb0182 | user_id=10 | method=POST | path=/products/ | status_code=403 | duration_ms=9.85
+2026-05-20 17:11:44 | INFO | request_id=85092b11-1081-4f0f-b9fb-1b9980827e5d | user_id=10 | method=POST | path=/orders/ | status_code=200 | duration_ms=77.35
+2026-05-20 17:13:01 | INFO | request_id=757ce912-6298-4249-a9ab-2446dbef21f5 | user_id=10 | method=PUT | path=/orders/2/status | status_code=400 | duration_ms=14.49
+2026-05-20 17:13:13 | INFO | request_id=080a4ccd-a967-4ac7-ad1b-2f5bcddb78ea | user_id=10 | method=PUT | path=/orders/2/status | status_code=200 | duration_ms=45.85
+2026-05-20 17:14:02 | INFO | request_id=67fc9919-293b-4c88-9363-34b8434f99f5 | user_id=10 | method=PUT | path=/orders/2/status | status_code=200 | duration_ms=44.23
+2026-05-20 17:14:19 | INFO | request_id=f0ff897d-6a88-4460-8f37-ed8bb1a2ac81 | user_id=10 | method=PUT | path=/orders/2/status | status_code=400 | duration_ms=11.57
+2026-05-20 17:15:09 | INFO | request_id=208a7304-2476-4385-8bd3-fc60df737463 | user_id=anonymous | method=GET | path=/products/4 | status_code=200 | duration_ms=6.81
+2026-05-20 17:57:04 | INFO | request_id=0a4098be-ed49-498b-b37d-2417d69c0157 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=24.44
+2026-05-20 17:57:17 | INFO | request_id=01471fb0-251f-4d41-a12a-ab702592f5a8 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=1.65
+2026-05-20 17:57:17 | INFO | request_id=e9a8a7b3-7bb9-4a3f-952b-55678f06d69d | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=59.03
+2026-05-21 12:15:37 | INFO | request_id=1907c5a9-0b26-485d-bb3b-da3c8e9df3e3 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=10.98
+2026-05-21 12:15:37 | INFO | request_id=2031a0b9-0826-4875-a4f1-aa691a09d681 | user_id=anonymous | method=GET | path=/favicon.ico | status_code=404 | duration_ms=0.73
+2026-05-21 12:15:43 | INFO | request_id=700c0107-5b72-4c42-be03-d274581fad79 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.75
+2026-05-21 12:15:43 | INFO | request_id=8beca399-65b2-423e-acd4-9e9f9ee59bff | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=76.25
+2026-05-21 12:15:53 | INFO | request_id=43d48587-4dcb-4945-b7c7-de0a1114c19f | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=45.41
+2026-05-21 12:16:41 | INFO | request_id=c58a478f-79df-4728-a073-3f7d221142d0 | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=4.41
+2026-05-21 12:16:51 | INFO | request_id=ff94847e-be52-41d9-9299-f3a2b30c0c17 | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=5.15
+2026-05-21 12:17:40 | DEBUG | detected 'bcrypt' backend, version '4.0.1'
+2026-05-21 12:17:40 | DEBUG | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-05-21 12:17:40 | INFO | request_id=b70d52fc-ec3c-4d51-8a0d-b54d0e3e713c | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=432.34
+2026-05-21 12:18:55 | INFO | request_id=8d76cd3f-7e05-4692-b5c8-62b416c3c81b | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=366.06
+2026-05-21 12:20:10 | INFO | request_id=9e474268-40b3-4b8d-9a03-e812c63ac482 | user_id=11 | method=POST | path=/products/ | status_code=200 | duration_ms=36.86
+2026-05-21 12:20:44 | INFO | request_id=0cd4bd54-6c1e-4b5b-944f-21a189da6bbd | user_id=anonymous | method=GET | path=/products/5 | status_code=200 | duration_ms=5.8
+2026-05-21 12:20:51 | INFO | request_id=f77d8e2e-e126-434e-8ceb-f7902cb84ff3 | user_id=anonymous | method=GET | path=/products/4 | status_code=200 | duration_ms=4.1
+2026-05-21 12:21:38 | INFO | request_id=d4c5bf50-4b41-4785-be00-294b2242e3f1 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=359.54
+2026-05-21 12:21:56 | INFO | request_id=864946d6-3f26-4102-9569-9b9680162f74 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=693.6
+2026-05-21 12:22:25 | INFO | request_id=0eaff982-7fe6-48f3-8233-8e5d901675a0 | user_id=12 | method=GET | path=/orders/ | status_code=200 | duration_ms=10.11
+2026-05-21 12:22:51 | INFO | request_id=90a4b2a1-0469-4206-9333-fc8e8fc74185 | user_id=12 | method=POST | path=/orders/ | status_code=200 | duration_ms=57.56
+2026-05-21 12:23:07 | INFO | request_id=4d9c3fea-0c62-43e6-bd21-df1dc0f01e72 | user_id=12 | method=GET | path=/orders/ | status_code=200 | duration_ms=7.44
+2026-05-21 12:26:18 | INFO | request_id=e05af31c-4518-4d1e-8586-0378e545e250 | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=4.15
+2026-05-21 12:27:16 | INFO | request_id=54322db4-4311-4270-b433-38dae5a86cd3 | user_id=12 | method=PUT | path=/orders/3/status | status_code=200 | duration_ms=36.97
+2026-05-21 12:27:51 | INFO | request_id=1d86e58e-82a3-4c3e-80ae-4823fb5cfaeb | user_id=12 | method=PUT | path=/orders/3/status | status_code=200 | duration_ms=26.39
+2026-05-21 12:28:03 | INFO | request_id=b15c02be-70e8-42d8-97e3-4ff8b32fb163 | user_id=12 | method=PUT | path=/orders/3/status | status_code=400 | duration_ms=8.84
+2026-05-21 12:28:24 | INFO | request_id=2b05af40-8780-4685-a0ec-42694cad559f | user_id=anonymous | method=GET | path=/products/ | status_code=200 | duration_ms=4.83
+2026-05-21 12:29:34 | INFO | request_id=65feb017-63a7-4808-afb7-ee442267f973 | user_id=12 | method=POST | path=/products/suggest-metadata | status_code=403 | duration_ms=5.57
+2026-05-21 12:31:40 | INFO | request_id=71bd4bbf-4ac9-475a-8421-102ad451a919 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=340.23
+2026-05-21 12:32:11 | WARNING | LLM call failed (OPENAI_API_KEY not set), using fallback metadata generator
+2026-05-21 12:32:11 | INFO | request_id=8f2e6f3e-35ce-479a-aa6a-3270d3462e4b | user_id=11 | method=POST | path=/products/suggest-metadata | status_code=200 | duration_ms=33.57
+2026-05-21 12:34:14 | INFO | request_id=5c09a6c8-87de-4e52-8e6d-cccec7f7bc55 | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.35
+2026-05-21 12:34:14 | INFO | request_id=5a452984-5739-4be9-9e05-c728532030fe | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=33.43
+2026-05-21 14:02:42 | INFO | request_id=6cedc286-81ce-456d-884c-de9bf8bfe351 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=4.96
+2026-05-21 14:02:52 | INFO | request_id=a2dffc82-5e4b-4807-ab5f-6eb3698e294c | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.36
+2026-05-21 14:02:52 | INFO | request_id=8d45add2-8f29-4262-ad4b-c45bc795eed6 | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=32.15
+2026-05-21 14:08:16 | DEBUG | detected 'bcrypt' backend, version '4.0.1'
+2026-05-21 14:08:16 | DEBUG | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-05-21 14:08:16 | INFO | request_id=a1fd2330-7272-4574-a63a-51085e4a0a90 | user_id=anonymous | method=POST | path=/auth/register | status_code=200 | duration_ms=467.15
+2026-05-21 14:08:54 | INFO | request_id=25087a3f-1f0e-4fa3-9bd0-85becfb15ea7 | user_id=anonymous | method=POST | path=/auth/login | status_code=200 | duration_ms=364.97
+2026-05-21 14:18:04 | INFO | request_id=3b9f6bf0-ccce-4054-af5d-f6410a276bc5 | user_id=13 | method=POST | path=/products/ | status_code=200 | duration_ms=62.04
+2026-05-21 14:18:29 | WARNING | LLM call failed (OPENAI_API_KEY not set), using fallback metadata generator
+2026-05-21 14:18:29 | INFO | request_id=1b5d7c08-fcc4-42f6-848e-4739c955f8f3 | user_id=13 | method=POST | path=/products/suggest-metadata | status_code=200 | duration_ms=6.77
+2026-05-21 14:19:30 | INFO | request_id=eb7a7f4d-61d3-4274-bce4-923e2e9be4ae | user_id=anonymous | method=GET | path=/products/7 | status_code=404 | duration_ms=4.42
+2026-05-21 14:19:45 | INFO | request_id=a54d5642-8f61-4667-ae41-cedfe326b44c | user_id=anonymous | method=GET | path=/products/6 | status_code=200 | duration_ms=5.06
+2026-06-03 12:58:34 | INFO | request_id=53be15a2-2bfd-475a-95fa-944c9be3ee23 | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=8.84
+2026-06-03 12:58:48 | INFO | request_id=c0c276ad-e289-4bd3-a7e6-5c4dcf295dff | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=1.68
+2026-06-03 12:58:49 | INFO | request_id=cb619124-baaf-467c-a126-cd49c7e2b5df | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=96.91
+2026-06-03 13:12:57 | INFO | request_id=b8444843-1609-4784-b142-c3f8c01f5908 | user_id=anonymous | method=OPTIONS | path=/orders/ | status_code=405 | duration_ms=1.81
+2026-06-03 13:18:52 | INFO | request_id=609f16ca-a27b-47f2-87b9-d0f49060630c | user_id=anonymous | method=GET | path=/ | status_code=200 | duration_ms=20.7
+2026-06-03 13:19:00 | INFO | request_id=87ab1f25-738f-4616-8fee-b5a948f57e6f | user_id=anonymous | method=GET | path=/docs | status_code=200 | duration_ms=0.95
+2026-06-03 13:19:01 | INFO | request_id=a6ed321f-eda6-4721-a634-a2a8ca159be1 | user_id=anonymous | method=GET | path=/openapi.json | status_code=200 | duration_ms=63.5
